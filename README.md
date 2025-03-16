@@ -103,8 +103,8 @@ PREDICTION_ML_PROJECT/
 ## Features
 - **Data Preprocessing:** Handles missing values, feature scaling, and transformation.
 - **Feature Engineering:** Uses PCA and spectral filtering techniques.
-- **Model Training:** Trains regression models (Random Forest, CatBoost, etc.).
-- **Hyperparameter Optimization:** Uses GridSearch or Bayesian methods.
+- **Model Training:** Trains regression models 
+- **Hyperparameter Optimization:** Uses GridSearch 
 - **Evaluation Metrics:** RMSE, MAE, R² Score.
 - **Interactive Web App:** Uses Streamlit for real-time DON concentration predictions.
 - **Logging and Exception Handling:** Ensures scalability and debugging support.
