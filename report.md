@@ -60,7 +60,6 @@ This report documents the process of predicting DON (Deoxynivalenol) concentrati
 
 ## **6. Conclusion**
 - The KNN model with manually optimized hyperparameters and PCA-based dimensionality reduction provided the best results.
-- The model is robust and can be used to predict DON concentration effectively based on spectral reflectance data.
 - Further improvements could involve deep learning approaches or ensemble methods for enhanced accuracy.
 
 ---
