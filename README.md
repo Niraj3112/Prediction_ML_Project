@@ -30,8 +30,10 @@ PREDICTION_ML_PROJECT/
 │── venv/                   # Virtual environment (if applicable)
 │── .gitignore              # Ignore unnecessary files in Git
 │── README.md               # Project documentation
+│── report.md               # report of the project
 │── requirements.txt        # Dependencies and package requirements
 │── setup.py                # Project setup script
+
 ```
 
 ## Installation and Setup
