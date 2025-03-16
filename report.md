@@ -51,11 +51,10 @@ This report documents the process of predicting DON (Deoxynivalenol) concentrati
 
 ## **5. Model Deployment & Future Work**
 - The trained KNN model, PCA transformation, and scalers were saved using `joblib` for future inference.
-- Predictions on unseen data were tested successfully.
 - Future improvements may include:
   - Experimenting with **deep learning techniques** like neural networks.
   - Exploring **feature engineering** for better input representation.
-  - Tuning hyperparameters with automated methods like **GridSearchCV** or **RandomizedSearchCV**.
+  - Tuning hyperparameters with automated methods like **GridSearchCV**
 
 ---
 
