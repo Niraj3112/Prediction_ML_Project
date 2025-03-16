@@ -41,12 +41,12 @@ class ModelTrainer:
             train_metrics, test_metrics = evaluate_model(best_knn, X_train, y_train_scaled, X_test, y_test_scaled)
             
             # Print evaluation results
-            print("📊 Training Metrics:", train_metrics)
-            print("📊 Testing Metrics:", test_metrics)
+            print("Training Metrics:", train_metrics)
+            print("Testing Metrics:", test_metrics)
 
             # Save the trained model
             joblib.dump(best_knn, self.model_path)
-            logging.info("✅ Model training and saving completed.")
+            logging.info("Model training and saving completed.")
 
             return best_knn, self.model_path
 

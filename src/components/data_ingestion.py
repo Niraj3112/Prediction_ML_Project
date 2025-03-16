@@ -23,7 +23,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("Entered the data ingestion method")
         try:
-            df = pd.read_csv("C:\\PROJECTS\\Prediction_Ml_Project\\notebooks\\data.csv")
+            df = pd.read_csv("Prediction_Ml_Project\\notebooks\\data.csv")
             logging.info(f"Dataset loaded with shape: {df.shape}")
 
             if 'hsi_id' in df.columns:
@@ -63,8 +63,8 @@ if __name__ == "__main__":
     trainer = ModelTrainer()
     model, model_path = trainer.train_model(train_arr, test_arr, preprocessor_path, target_scaler_path)
 
-    print("✅ Model saved at:", model_path)
-    print("✅ Target Scaler saved at:", target_scaler_path)
+    print("Model saved at:", model_path)
+    print("Target Scaler saved at:", target_scaler_path)
 
 
 

@@ -49,7 +49,7 @@ class DataTransformation:
             train_arr = (X_train_pca, y_train_scaled)
             test_arr = (X_test_pca, y_test_scaled)
 
-            logging.info("✅ Data transformation completed successfully!")
+            logging.info("Data transformation completed successfully!")
 
             return (
                 train_arr,
