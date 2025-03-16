@@ -3,7 +3,7 @@ import pandas as pd
 from src.pipeline.predict_pipeline import PredictPipeline
 
 
-st.set_page_config(page_title="DON Concentration Prediction", layout="centered")
+st.set_page_config(page_title="DON-Concentration Prediction", layout="centered")
 st.title(" Don Concentration Prediction App")
 st.write("Upload a CSV file with **448 features** to predict DON Concentration")
 uploaded_file = st.file_uploader("Upload CSV File", type=["csv"])
