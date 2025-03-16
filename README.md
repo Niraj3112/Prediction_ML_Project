@@ -10,13 +10,7 @@ The goal is to build a predictive model using hyperspectral data to estimate **D
 ```
 PREDICTION_ML_PROJECT/
 │── notebooks/              # Jupyter notebooks for data analysis and experimentation
-│   ├── best_model.pkl      # Best performing model
-│   ├── data.csv            # Dataset
 │   ├── EDA.ipynb           # Exploratory Data Analysis (EDA)
-│   ├── finalmodel.pkl      # Final trained model
-│   ├── pca.pkl             # PCA transformation (if used)
-│   ├── target_scaler.pkl   # Target variable scaler
-│
 │── src/                    # Source code for the project
 │   ├── components/         # Contains modular ML components
 │   │   ├── __init__.py     # Init file for components module
@@ -44,7 +38,7 @@ PREDICTION_ML_PROJECT/
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/Niraj3112/Prediction_ML_Project]
+   git clone https://github.com/Niraj3112/Prediction_ML_Project
    cd PREDICTION_ML_PROJECT
    ```
 2. **Create a Virtual Environment and Install Dependencies:**
