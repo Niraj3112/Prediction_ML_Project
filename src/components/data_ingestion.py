@@ -28,7 +28,7 @@ class DataIngestion:
 
             if 'hsi_id' in df.columns:
                 df = df.drop(columns=['hsi_id'])
-                logging.info("Successfully dropped 'hs_id' column.")
+                logging.info("Successfully dropped 'hsi_id' column.")
             else:
                 logging.info("'hsi_id' column not found in the dataset.")
 

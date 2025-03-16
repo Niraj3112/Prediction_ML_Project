@@ -19,7 +19,7 @@ class DataTransformation:
 
     def initiate_data_transformation(self, train_data_path, test_data_path):
         try:
-            logging.info("📥 Reading train and test datasets")
+            logging.info("Reading train and test datasets")
             train_df = pd.read_csv(train_data_path)
             test_df = pd.read_csv(test_data_path)
             X_train = train_df.iloc[:, :-1].values

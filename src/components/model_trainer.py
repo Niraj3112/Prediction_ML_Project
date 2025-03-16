@@ -14,7 +14,7 @@ class ModelTrainer:
 
     def train_model(self, train_arr, test_arr, preprocessor_path, target_scaler_path):
         try:
-            logging.info("Loading transformed datasets...")
+            logging.info("Loading transformed datasets")
 
             X_train, y_train_scaled = train_arr
             X_test, y_test_scaled = test_arr
