@@ -44,7 +44,7 @@ PREDICTION_ML_PROJECT/
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-repo.git
+   git clone [https://github.com/Niraj3112/Prediction_ML_Project]
    cd PREDICTION_ML_PROJECT
    ```
 2. **Create a Virtual Environment and Install Dependencies:**
