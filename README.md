@@ -27,7 +27,7 @@ PREDICTION_ML_PROJECT/
 │
 │── application.py          # Streamlit web application for model inference
 │
-│── venv/                   # Virtual environment (if applicable)
+│── venv/                   # Virtual environment
 │── .gitignore              # Ignore unnecessary files in Git
 │── README.md               # Project documentation
 │── report.md               # report of the project
@@ -98,7 +98,7 @@ PREDICTION_ML_PROJECT/
 
 ## Features
 - **Data Preprocessing:** Handles missing values, feature scaling, and transformation.
-- **Feature Engineering:** Uses PCA and spectral filtering techniques.
+- **Feature Engineering:** Uses PCA.
 - **Model Training:** Trains regression models 
 - **Hyperparameter Optimization:** Uses GridSearch 
 - **Evaluation Metrics:** RMSE, MAE, R² Score.
